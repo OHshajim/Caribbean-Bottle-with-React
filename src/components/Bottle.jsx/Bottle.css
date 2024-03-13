@@ -1,0 +1,22 @@
+.bottle{
+    margin: 30px;
+    border: 3px solid rgb(55, 161, 159);
+    border-radius: 30px;
+    padding: 30px;
+    text-align: center;
+}
+.bottle-img{
+    width: 300px;
+    border-radius: 30px;
+}
+
+.money{
+    color: rgb(246, 48, 48);
+}
+.btn{
+    padding-inline: 25px;
+    padding-block: 14px;
+    border: none;
+    border-radius: 12px;
+    background: rgb(231, 62, 62);
+}
