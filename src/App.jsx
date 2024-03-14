@@ -4,11 +4,12 @@ import Bottles from './components/Bottles/Bottles'
 function App() {
 
   return (
-    <>
+    <div className='container'>
+
       <Header></Header>
-       <Bottles></Bottles>
+      <Bottles></Bottles>
      
-    </>
+    </div>
   )
 }
 
