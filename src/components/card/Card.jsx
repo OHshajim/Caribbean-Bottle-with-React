@@ -5,8 +5,8 @@ const Card = ({ cart, handleRemove }) => {
         <div>
 
             <h4>cart : {cart.length}</h4>
-            <div className="Cart">
-                {cart.map(bottle => <div key={bottle.id} >
+            <div className="cart-container">
+                {cart.map(bottle => <div key={bottle.id} className='cart'>
                      <img src={bottle.img}></img>
                      <button onClick={()=>handleRemove(bottle.id)}>Remove</button>
                      </div>)}
